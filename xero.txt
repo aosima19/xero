@@ -1,0 +1,106 @@
+getgenv().Configs = {
+    ["Team"] = "Pirates", -- Pirates/Marines
+    ["Auto Ken"] = true,
+    ["Auto Buso"] = true,
+    ["Auto turn on race v3"] = true,
+    ["Auto turn on race v4"] = true,
+    ["FPS Boost"] = true,
+    ["Click Time"] = 0.2,
+    ["Bypass TP"] = true,
+    ["Time to kill"] = 180, -- seconds - max time to kill the target
+    ["Chat"] = {
+        ["Enable"] = true,
+        ["Message"] = {"haha kid"}, -- Input your message here
+    },
+    ["Run When Low Health"] = {
+        ["Enable"] = true,
+        ["Health"] = 1500,
+        ["Come back"] = false
+    },
+    ["Region"] = "Singapore", -- Singapore, United States, Germany, ...
+    ["Weapons"] = {
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                }
+            }
+        },
+        ["Fruit"] = {
+            ["Enable"] = true,
+            ["Delay"] = 0.5,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["V"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["F"] = {
+                    ["Enable"] = false,
+                    ["HoldTime"] = 0,
+                }
+            }
+        },
+        ["Sword"] = {
+            ["Enable"] = true,
+            ["Delay"] = 1,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                }
+            }
+        },
+        ["Gun"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0.3,
+                }
+            }
+        }
+    },
+    ["Theme"] = {
+        ["Enable"] = true,
+        ["Name"] = "Hutao", -- Hutao, Raiden, Ayaka, Yelan
+        ["Custom Theme"] = {
+            ["Enable"] = true,
+            ["Text Color"] = Color3.fromRGB(231, 85, 88),
+            ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
+        }
+    }
+}
+loadstring(game:HttpGet("https://xerohub.click/script/autobounty.lua"))()
