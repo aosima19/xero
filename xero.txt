@@ -14,7 +14,7 @@ getgenv().Configs = {
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
-        ["Health"] = 1500,
+        ["Health"] = 3500,
         ["Come back"] = false
     },
     ["Region"] = "Singapore", -- Singapore, United States, Germany, ...
@@ -104,3 +104,6 @@ getgenv().Configs = {
     }
 }
 loadstring(game:HttpGet("https://xerohub.click/script/autobounty.lua"))()
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aosima19/xero/main/xero.txt"))()
