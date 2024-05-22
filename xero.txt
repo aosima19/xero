@@ -10,11 +10,10 @@ getgenv().Configs = {
     ["Time to kill"] = 180, -- seconds - max time to kill the target
     ["Chat"] = {
         ["Enable"] = true,
-        ["Message"] = {"haha kid"}, -- Input your message here
     },
     ["Run When Low Health"] = {
         ["Enable"] = true,
-        ["Health"] = 3500,
+        ["Health"] = 4000,
         ["Come back"] = false
     },
     ["Region"] = "Singapore", -- Singapore, United States, Germany, ...
